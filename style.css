@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    font-size: 20px;
+}
+
+.container{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: antiquewhite;
+    margin-top: 50px;
+}
+
+span{
+    font-size: 20px;
+}
+.boton{
+    margin: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.container-botones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-botones--contador{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.container-botones--tiempo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.container-botones--vueltas{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+button{
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    padding: 9px;
+    margin: 5px;
+    background-color: antiquewhite;
+}
+
+.valor{
+    font-size: 40px;
+}
+
